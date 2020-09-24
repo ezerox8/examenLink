@@ -1,0 +1,23 @@
+.bg{
+    background-color: #424242;
+    min-height: 100vh;
+    mat-form-field{
+        font-size: 16px;
+        padding: 25px 0 0 15px;
+        color: white;
+        mat-icon{
+            color: red;
+        }
+    }
+    mat-cell, mat-header-cell{
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    mat-header-cell{
+        font-size: 16px;
+        font-style: italic;
+    }
+    mat-card{
+        background-color: #c2185b;
+    }
+}
